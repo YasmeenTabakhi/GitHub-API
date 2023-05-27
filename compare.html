@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- main stylesheet  -->
+		<link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/compare.css">
+		<!-- font awesome kit  -->
+		<script
+			src="https://kit.fontawesome.com/b0a34af589.js"
+			crossorigin="anonymous"
+		></script>
+		<!-- google fonts  -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<title>GitHub</title>
+	</head>
+	<body>
+		<header>
+			<nav class="flex">
+				<i class="logo fa-brands fa-github"></i>
+				<i class="menu fa-solid fa-bars"></i>
+
+				<div class="left-side flex">
+					<svg
+						height="32"
+						aria-hidden="true"
+						viewBox="0 0 16 16"
+						version="1.1"
+						width="32"
+						data-view-component="true"
+						class="octicon octicon-mark-github v-align-middle"
+					>
+						<path
+							d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"
+						></path>
+					</svg>
+					<div class="search-bar">
+						<i class="fa-solid fa-magnifying-glass search"></i>
+						<input
+							type="search"
+							placeholder="Search or jump to"
+							name=""
+							id="search-user"
+						/>
+					</div>
+					<div class="links">
+						<a href="index.html">Home</a>
+						<a href="compare.html">Comparison</a>
+						<a href="#">Issues</a>
+						<a href="#">Codespaces</a>
+						<a href="#">Explore</a>
+					</div>
+				</div>
+				<div class="right-side flex">
+					<i class="fa-regular fa-bell"></i>
+					<div class="icon-comp">
+						<i class="fa-solid fa-plus"></i>
+						<i class="fa-solid fa-caret-down"></i>
+					</div>
+					<div class="icon-comp">
+						<i class="fa-solid fa-circle-half-stroke"></i>
+						<i class="fa-solid fa-caret-down"></i>
+					</div>
+				</div>
+			</nav>
+		</header>
+        <section class="flex">
+            <div class="compare flex">
+                <div class="first card flex">
+                    <input type="text" class="in1 search-comp" name="first-user-name" id="" placeholder="Enter user name">
+					<img src="img/github-logo.webp" alt="profile-photo" class="pic1">
+                    <p class="user1 user-name-comapre">User Name</p>
+                    <p class="followers1 followers-compare">Follwers:</p>
+                    <p class="repo1 repo-compare">Repo:</p>
+                </div>
+                <div class="second card flex">
+                    <input type="text" class="in2 search-comp" name="second-user-name" id="" placeholder="Enter user name">
+                    <img src="img/github-logo.webp" alt="profile-photo" class="pic2">
+                    <p class="user2 user-name-comapre">User Name</p>
+                    <p class="followers2 followers-compare">Follwers:</p>
+                    <p class="repo2 repo-compare">Repo:</p>     
+                </div>
+            </div>
+            <button class="compare-btn">Compare</button>
+        </section>
+        <hr>
+		<footer class="flex">
+			<div class="left-side flex">
+				<svg
+					aria-hidden="true"
+					height="24"
+					viewBox="0 0 16 16"
+					version="1.1"
+					width="24"
+					data-view-component="true"
+					class="octicon octicon-mark-github"
+				>
+					<path
+						d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"
+					></path>
+				</svg>
+				<p>&copy; 2023 GitHub, Inc.</p>
+			</div>
+			<div class="right-side flex">
+				<a href="#">Terms</a>
+				<a href="#">Privacy</a>
+				<a href="#">Security</a>
+				<a href="#">Status</a>
+				<a href="#">Docs</a>
+				<a href="#">Contact</a>
+				<a href="#">API</a>
+				<a href="#">Blog</a>
+			</div>
+		</footer>
+        <script src="js/compare.js"></script>
+	</body>
+</html>

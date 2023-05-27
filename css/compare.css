@@ -1,0 +1,50 @@
+section {
+    flex-direction: column;
+}
+section .compare-btn {
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #30363d;
+    color: #c9d1d9;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+.compare{
+    margin: 15px;
+    justify-content: center;
+    gap: 20px;
+}
+.compare .card {
+    flex-direction: column;
+    color: aliceblue;
+    border: 1px solid #21262d;
+    padding: 20px;
+    gap: 10px;
+}
+.compare .search-comp {
+    background-color: #161b22;
+    color: #7d8590;
+    border: 1px solid #7d8590;
+    padding: 7px 10px 7px 30px;
+    position: relative;
+    border-radius: 5px;
+}
+.compare .card img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: auto;
+}
+@media (max-width: 861px){
+    .compare{
+        flex-direction: column;
+    }
+}
+@media (max-width: 281px){
+    .compare .card img {
+        width: 200px;
+        height: 200px;
+    }
+}
